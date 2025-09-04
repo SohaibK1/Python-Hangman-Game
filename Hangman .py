@@ -2,7 +2,7 @@ import random
 
 def hangman():
     # Predefined list of words
-    words = ["python", "programming", "hangman", "codealpha", "internship"]
+    words = ["python", "programming", "hangman", "shoes", "Apple", "Books", "Vegetables", "Human", "Lion", "Smart Phone"]
     word = random.choice(words)  # Pick a random word
     guessed_letters = []
     attempts = 6
@@ -43,3 +43,4 @@ def hangman():
 # Run the game
 if __name__ == "__main__":
     hangman()
+
